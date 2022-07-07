@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ялика</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0 auto;
+            overflow: hidden;
+            padding-top: calc(100vh - 150vw);
+            width: min(66vh, 100vw);
+            height: min(150vw, 100vh);
+            font-family: monospace;
+            font-size: min(3vw, 2vh);
+            letter-spacing: calc(min(1.5vw, 1vh) - 1ch);
+            line-height: 1.1;
+            text-align: center;
+            background-image: radial-gradient(ellipse at center, white, red);
+        }
+    
+        style {
+            display: inline;
+            color: white;
+            background-color: green;
+            word-break: break-all;
+        }
+    
+        body::before,
+        style::before {
+            content: "";
+            display: block;
+            width: min(33vh, 50vw);
+            height: min(150vw, 100vh);
+        }
+    
+        body::before {
+            float: left;
+            shape-outside: polygon(0 0, 100% 0, 100% 18%, 54% 45%, 73% 45%, 27% 72%, 50% 72%, 14% 92%, 82% 92%, 82% 100%, 0 100%);
+        }
+    
+        style::before {
+            float: right;
+            shape-outside: polygon(100% 0, 0 0, 0 18%, 46% 45%, 27% 45%, 73% 72%, 50% 72%, 86% 92%, 18% 92%, 18% 100%, 100% 100%);
+        }
+    
+        style::selection {
+            color: gold;
+            background-color: gray;
+        }
+    
+        /* You need to put this in a style tag though. Merry Christmas!*/
+    </style>
+</body>
+</html>
