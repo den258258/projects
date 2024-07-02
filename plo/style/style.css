@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#4c0e6b);
+    padding: 0 !important; 
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+
+}
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #4c0e6b);
+    color: #fff;
+    padding-top: 5%;
+}
+.col-md-6 p {
+    padding-left: 30%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.promo-text{
+    font-size: 20px;
+}
+.play-btn {
+    padding-left: 30%;
+    margin: 20px;
+}
+.play-btn img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid {
+    width: 480px;
+    height: 480px;
+}
